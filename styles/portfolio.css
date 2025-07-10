@@ -52,6 +52,9 @@
     font-size: 18px;
     color: #757575;
 }
+.text-center{
+    text-align: center;
+}
 /*header*/
 .header{
     background-image:url(../images/developer.png), url(../images/header_bg.png);
@@ -115,12 +118,15 @@ main{
     margin:0 auto;
 
 }
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
 /*about styles*/
 .about{
     border-radius: 10px;
     padding: 130px 155px;
     text-align: center;
-    margin-top: 130px;
 }
 .item-title{
     font-weight: 400;
@@ -136,3 +142,25 @@ main{
     justify-content:space-around;
     gap: 50px;
 }
+/*skill section*/
+.skill{
+    
+    padding: 30px;
+    
+}
+.skills-container{
+    
+    display:flex;
+    gap: 25px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.skills{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+}
+.section-details{
+    
+}
+.section-ti
