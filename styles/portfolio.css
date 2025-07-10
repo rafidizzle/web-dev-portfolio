@@ -160,7 +160,39 @@ main section{
     box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
     border-radius: 20px;
 }
-.section-details{
+/*resume styles*/
+.resume-container{
+    display: flex;
+    gap: 25px;
+}
+.resume-column{
+    padding: 45px;
     
 }
-.section-ti
+.resume-column-title{
+    font-weight: bold;
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+.exp-title{
+    font-weight: bold;
+    font-size: 25px;
+    color: #474747;
+}
+.exp-subtitle{
+    font-weight: 600;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.exp-details{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    
+}
+.button-down-cv{
+    padding:20px;
+    margin: top 70px;;
+}
