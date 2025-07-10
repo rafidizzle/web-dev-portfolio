@@ -11,6 +11,9 @@
 .color-primary{
     color: #FD6E0A;
 }
+.color-secondary{
+    background-color: #FFF8F3;
+}
 .dark1{
     color: #181818;
 }
@@ -38,6 +41,16 @@
     padding: 20px 35px;
     border-radius: 5px;
     border-color:#FD6E0A;
+}
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+    color: #181818;
+}
+.section-details{
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
 }
 /*header*/
 .header{
@@ -96,4 +109,30 @@ nav ul li a {
 }
 .banner-content{
     max-width: 580;
+}
+main{
+    max-width: 1140px;
+    margin:0 auto;
+
+}
+/*about styles*/
+.about{
+    border-radius: 10px;
+    padding: 130px 155px;
+    text-align: center;
+    margin-top: 130px;
+}
+.item-title{
+    font-weight: 400;
+    font-size: 20px;
+}
+.item-details{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.about-items{
+    display: flex;
+    justify-content:space-around;
+    gap: 50px;
 }
